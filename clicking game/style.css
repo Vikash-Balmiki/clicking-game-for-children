@@ -1,0 +1,205 @@
+#main{
+    height: 100vh;
+    width: 100vw;
+    background-color: aqua;
+    display: flex;
+    
+}
+#leftside{
+    height: 100vh;
+    width: 30vw;
+    background-color: rgb(255, 60, 0);
+}
+#upperdiv{
+    height: 50vh;
+    width: 70vw;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+#myname{
+    height:50vh ;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    /* background-color: blue; */
+    font-size: 10vh;
+
+    
+}
+#lowerdiv{
+    height: 50vh;
+    width: 70vw;
+    background-color:white;
+    background-image: url(images/bg1.jpg) ;
+    background-repeat:no-repeat ;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#cartoon{
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/img4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#sidebox1{
+    height: 50vh;
+    width: 30vw;
+    background-color: green;
+}
+#sidebox1{
+    height: 50vh;
+    width: 30vw;
+    background-color: white;
+}
+#rightside{
+    height: 100vh;
+    width: 70vw;
+    background-color: brown;
+   
+}
+#sbox1{
+    height:25vh ;
+    width: 30vw;
+    background-color: white;
+}
+#sbox2{
+    height:25vh ;
+    width: 30vw;
+    background-color: white;
+}
+#sbox3{
+    height:25vh ;
+    width: 30vw;
+    background-color: blanchedalmond;
+}
+#sbox4{
+    height:25vh ;
+    width: 30vw;
+    background-color: white;
+}
+#text1{
+    height:5vh;
+    width: 30vw;
+    background-color: white;
+    font-size: larger;
+
+
+}
+#red1{
+    height: 12vh;
+    width: 7vw;
+    background-color: red;
+    border-radius: 2vh;
+}
+#orange1{
+    height: 12vh;
+    width: 7vw;
+    background-color: orange;
+    border-radius: 2vh;
+}
+#yellow1{
+    height: 12vh;
+    width: 7vw;
+    background-color: yellow;
+    border-radius: 2vh;
+}
+#blue1{
+    height: 12vh;
+    width: 7vw;
+    background-color: blue;
+    border-radius: 2vh;
+    
+}
+#red2{
+    height: 12vh;
+    width: 7vw;
+    background-color: red;
+    border-radius: 2vh;
+}
+#orange2{
+    height: 12vh;
+    width: 7vw;
+    background-color: orange;
+    border-radius: 2vh;
+}
+#yellow2{
+    height: 12vh;
+    width: 7vw;
+    background-color: yellow;
+    border-radius: 2vh;
+}
+#blue2{
+    height: 12vh;
+    width: 7vw;
+    background-color: blue;
+    border-radius: 2vh;
+    
+}
+
+#image1{
+    height: 12vh;
+    width: 7vw;
+    background-image: url(images/img1.png);
+    border-radius: 2vh;
+    background-size: cover;
+}
+#image2{
+    height: 12vh;
+    width: 7vw;
+    background-image: url(images/img2.png);
+    border-radius: 2vh;
+    background-size: cover;
+}
+#image3{
+    height: 12vh;
+    width: 7vw;
+    background-image: url(images/img3.jpg);
+    border-radius: 2vh;
+    background-size: cover;
+}
+#image4{
+    height: 12vh;
+    width: 7vw;
+    background-image: url(images/img4.jpg);
+    border-radius: 2vh;
+    background-size: cover;
+    
+}
+#background1{
+    height: 12vh;
+    width: 7vw;
+    background-image: url(images/bg1.jpg);
+    border-radius: 2vh;
+    background-size: cover;
+}
+#background2{
+    height: 12vh;
+    width: 7vw;
+    background-image: url(images/bg2.jpg);
+    border-radius: 2vh;
+    background-size: cover;
+}
+#background3{
+    height: 12vh;
+    width: 7vw;
+    background-image: url(images/bg3.jpg);
+    border-radius: 2vh;
+    background-size: cover;
+}
+#background4{
+    height: 12vh;
+    width: 7vw;
+    background-image: url(images/bg4.jpg);
+    border-radius: 2vh;
+    background-size: cover;
+}

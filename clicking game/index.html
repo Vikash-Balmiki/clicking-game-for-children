@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>assignment2</title>
+</head>
+<body>
+  <div id="main">
+
+
+
+
+<div id="leftside"> 
+  <div id="sidebox1">
+     <div id="sbox1"><div id="text1">TEXT COLOUR CHANGE</div>
+     <button id="red1" onclick="text_color (1)"></button>
+    <button id="orange1" onclick="text_color (2)"></button>
+    <button id="yellow1"  onclick="text_color (3)"></button>
+    <button id="blue1"  onclick="text_color (4)"></button>
+    </div>
+
+
+
+  <div id="sbox2">
+    <div id="text1">BACKGROUND COLOUR CHANGE</div>
+     <button id="red2" onclick="bg_color (1)"></button>
+    <button id="orange2" onclick="bg_color (2)"></button>
+    <button id="yellow2" onclick="bg_color (3)"></button>
+    <button id="blue2" onclick="bg_color (4)"></button>
+  </div>
+</div>
+
+
+
+
+  <div id="sidebox2">
+<div id="sbox3">
+  <div id="text1">IMAGE CHANGE</div>
+  <button id="image1" onclick="img(1)"></button>
+ <button id="image2"  onclick="img(2)" ></button>
+ <button id="image3"  onclick="img(3)"></button>
+ <button id="image4"  onclick="img(4)"></button>
+</div>
+
+
+<div id="sbox4">
+  <div id="text1">BACKGROUND IMAGE CHANGE</div>
+  <button id="background1"onclick="backgroundimg(1)"></button>
+ <button id="background2"onclick="backgroundimg(2)"></button>
+ <button id="background3"onclick="backgroundimg(3)"></button>
+ <button id="background4"onclick="backgroundimg(4)"></button>
+</div>
+
+
+  </div>
+
+</div>
+
+
+
+
+
+<div id="rightside">
+  <div id="upperdiv"> <div id="myname">Vikash Balmiki</div>
+</div>
+
+
+
+  <div id="lowerdiv">
+    <div id="cartoon"></div>
+</div>
+</div>
+    
+  </div>
+
+  <script>
+     function text_color(n)
+        {
+            if(n == 1)
+            {
+                document.getElementById("myname").style.color='red';
+            }
+            else if(n == 2)
+            {
+                document.getElementById("myname").style.color='orange';
+            }
+            else if(n == 3)
+            {
+                document.getElementById("myname").style.color='yellow';
+            }
+            else 
+            {
+                document.getElementById("myname").style.color='blue';
+            }
+        }
+
+function bg_color(n)
+{
+    if(n == 1)
+    {
+        document.getElementById("upperdiv").style.backgroundColor='red';
+    }
+    else if(n == 2)
+    {
+        document.getElementById("upperdiv").style.backgroundColor='orange';
+    }
+    else if(n == 3)
+    {
+        document.getElementById("upperdiv").style.backgroundColor='yellow';
+    }
+    else 
+    {
+        document.getElementById("upperdiv").style.backgroundColor='blue';
+    }
+}
+function img(n)
+        {
+            if(n == 1)
+            {
+                document.getElementById("cartoon").style.backgroundImage="URL('images/img1.png')";
+            }
+            else if(n == 2)
+            {
+                document.getElementById("cartoon").style.backgroundImage="URL('images/img2.png')";
+            }
+            else if(n == 3)
+            {
+                document.getElementById("cartoon").style.backgroundImage="URL('images/img3.jpg')";
+            }
+            else 
+            {
+                document.getElementById("cartoon").style.backgroundImage="URL('images/img4.jpg')";
+            }
+        }
+
+        function backgroundimg(n)
+        {
+            if(n == 1)
+            {
+                document.getElementById("lowerdiv").style.backgroundImage="URL('images/bg1.jpg')";
+            }
+            else if(n == 2)
+            {
+                document.getElementById("lowerdiv").style.backgroundImage="URL('images/bg2.jpg')";
+            }
+            else if(n == 3)
+            {
+                document.getElementById("lowerdiv").style.backgroundImage="URL('images/bg3.jpg')";
+            }
+            else if(n == 4)
+            {
+                document.getElementById("lowerdiv").style.backgroundImage="URL('images/bg4.jpg')";
+            }
+        }
+  </script>
+</body>
+</html>
+
+
+
+
+    
